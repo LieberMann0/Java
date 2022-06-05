@@ -35,8 +35,8 @@ public class Main_Pow {
             num_b = scan.nextInt();
         } 
         
-        pr_Writer.printf("a %d \n", num_a);
         pr_Writer.printf("b %d \n", num_b);
+        pr_Writer.printf("a %d \n", num_a);
         
         pr_Writer.close();
 
@@ -56,8 +56,8 @@ public class Main_Pow {
         
 
         double res = 0;
-        int a = arr_num[0];
-        int b = arr_num[1];
+        int a = arr_num[1];
+        int b = arr_num[0];
 
         if (a == 0 && b == 0) {
             System.out.println("There is no solution");
