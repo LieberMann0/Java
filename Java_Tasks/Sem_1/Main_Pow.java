@@ -1,7 +1,3 @@
-package Java_Tasks.Sem_1;
-
-
-
 import java.io.IOException;
 import java.io.File;
 import java.io.PrintWriter;
