@@ -1,3 +1,5 @@
+package Sem_2;
+
 public class Triangular_Num {
 
     public static void main(String[] args) {
