@@ -5,10 +5,10 @@ import java.util.Arrays;
 public class Task02 {
     public static void main(String[] args) {
         
-        int a = 1;
-        int b = 7;
-        int c = 2;
-        int d = 1;
+        int a;
+        int b;
+        int c;
+        int d;
         String[] minComand = new String[0];        
         
         System.out.println(Arrays.toString(comandSet(a, b, c, d, "", minComand)));
@@ -30,7 +30,7 @@ public class Task02 {
                 if (minComandArray.length > comandArray.length) {
                     minComandArray = comandArray;
                 }
-                
+
             }
             return;
 
